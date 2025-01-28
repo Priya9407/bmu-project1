@@ -37,25 +37,6 @@ var swiper = new Swiper(".home-slider", {
       },
 });
     
-
-// var swiper = new Swiper(".pro-slider", {
-//   loop: true,
-//   direction:'horizontal',
-//   grabCursor: true,
-//   autoplay: {
-//     delay: 2500,
-//     disableOnInteraction:false,
-//   },speed: 5,
-//       navigation: {
-//         nextE1: ".swiper-button-next",
-//         prevE1: ".swiper-button-prev",
-//         on: {
-//           init: function () {
-//             document.querySelector('.swiper-wrapper').style.flexDirection = 'row-reverse';
-//           },
-//         },
-//       },
-//     });
 var swiper = new Swiper(".blogs-slider", {
   loop: true,
   grabcursor: true,
